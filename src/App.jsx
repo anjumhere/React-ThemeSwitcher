@@ -1,7 +1,7 @@
-import React from "react";
-
-const App = () => {
-  return <div className=" text-white bg-gray-900 h-min-screen">hello</div>;
-};
-
-export default App;
+export default function App() {
+  return (
+    <main className="flex min-h-screen items-center justify-center bg-gray-900 text-white">
+      <h1 className="text-2xl font-bold">Hello World</h1>
+    </main>
+  );
+}
